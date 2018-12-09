@@ -10,10 +10,12 @@ main{
     background-color: #480918c9;
     padding: 20px;
     color: #fff;
+    min-height: calc(800px - 70px);
 }
 
 footer{
     margin: -20px;
+    text-align: center;
     background-color: #e4e4e4;
     color:#000;
 }
@@ -22,8 +24,12 @@ footer p {
     margin-bottom: 0;
 }
 
+.logo-container{
+    text-align: center;
+}
 
 .navigation-bar ul{
+    /* List style Ul ve OL de kullanılan itemların kösesindekli bullet içindir */
     list-style: none;
     background-color: #480918c9;
     padding: 0;
@@ -31,10 +37,12 @@ footer p {
 
 .navigation-bar ul li {
     font-size: 24px;
+    text-align: center;
     padding: 20px;
 }
 
 .navigation-bar ul li a{
+    text-decoration: none;
     color: #f1ece2;
 }
 .navigation-bar ul li a:hover{
@@ -43,10 +51,12 @@ footer p {
 
 .description-container .description h2 {
     border-bottom: 1px solid #ccc;
+    line-height: 70px;
 }
 
 .project{
     width: 23%;
+    text-align: center;
 }
 
 section{
