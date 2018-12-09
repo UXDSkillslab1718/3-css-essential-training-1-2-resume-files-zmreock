@@ -6,7 +6,12 @@ body{
 }
 nav{
     flex: 1 1 auto;
-    background-color: #f5dfb66b;
+    /* background-color: #f5dfb66b; */
+    background: #fefcea; /* Old browsers */
+    background: -moz-linear-gradient(top, #fefcea 0%, #f4b744 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fefcea 0%,#f4b744 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fefcea 0%,#f4b744 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f4b744',GradientType=0 ); /* IE6-9 */
     padding: 20px;
 }
 main{
@@ -63,7 +68,7 @@ footer > p {
 }
 
 .description-container > .description > h2 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
     line-height: 70px;
 }
 
